@@ -21,7 +21,7 @@ namespace MVC.ASP.NET.World_Literature.Models
     public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
     {
 
-        public DbSet<Store> Stores { get; set;}
+        public DbSet<Storie> Stories { get; set;}
 
         public ApplicationDbContext()
             : base("DefaultConnection", throwIfV1Schema: false)

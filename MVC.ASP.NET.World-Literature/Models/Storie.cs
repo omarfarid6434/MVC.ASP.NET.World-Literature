@@ -6,7 +6,7 @@ using MVC.ASP.NET.World_Literature.Models;
 
 namespace MVC.ASP.NET.World_Literature.Models
 {
-    public class Store
+    public class Storie
     {
         public int Id { get; set; }
         public string Title { get; set; }
