@@ -1,0 +1,33 @@
+﻿@model IEnumerable<MVC.ASP.NET.World_Literature.Models.Storie>
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Stories</h2>
+
+@if (!Model.Any())
+{
+    <p> We are not any Storie</p>
+}
+
+else
+{
+
+<table class="table table-bordered table-hover">
+    <thead>
+        <tr>
+            <th>Storie List</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var storie in Model)
+        {
+            <tr>
+                <td>@Html.ActionLink(storie.Title, "Details", new { id = storie.Id }, null)</td>
+            </tr>
+        }
+    </tbody>
+</table> 
+
+}
