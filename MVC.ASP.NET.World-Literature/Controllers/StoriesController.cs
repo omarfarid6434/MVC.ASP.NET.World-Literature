@@ -33,12 +33,55 @@ namespace MVC.ASP.NET.World_Literature.Controllers
 
         public ActionResult Details(int id)
         {
-            var storie = _context.Stories.SingleOrDefault(c => c.Id == id);
+            var storie = _context.Stories.SingleOrDefault(s => s.Id == id);
 
             if (storie == null)
                 return HttpNotFound();
 
             return View(storie);
+        }
+
+        public ActionResult Edit(int id)
+        {
+            var storie = _context.Stories.SingleOrDefault(s => s.Id == id);
+
+            if (storie == null)
+
+                return HttpNotFound();
+
+            return View("StoreForm",storie);
+        }
+
+        public ActionResult New()
+        {
+            var storie = _context.Stories.ToList();
+           
+            return View("StoreForm",storie);
+        }
+
+
+        [HttpPost]
+        public ActionResult Update(Storie storie)
+        {
+            if (storie.Id == 0)
+            {
+                _context.Stories.Add(storie);
+            }
+
+            
+
+            else
+            {
+                var storieInDB = _context.Stories.SingleOrDefault(s => s.Id == storie.Id);
+
+                storieInDB.Title = storie.Title;
+                storieInDB.PublishDate = storie.PublishDate;
+                storieInDB.Description = storie.Description;
+            }
+
+            _context.SaveChanges();
+
+            return RedirectToAction("Index", "Stories");
         }
     }
 }

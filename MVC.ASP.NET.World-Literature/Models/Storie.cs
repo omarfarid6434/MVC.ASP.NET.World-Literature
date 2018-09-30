@@ -11,7 +11,11 @@ namespace MVC.ASP.NET.World_Literature.Models
     {
         public int Id { get; set; }
         public string Title { get; set; }
+
+        
         public string Description { get; set; }
+
+        [Display(Name = "Pulish Date")]
         public DateTime PublishDate { get; set; }
     }
 }
