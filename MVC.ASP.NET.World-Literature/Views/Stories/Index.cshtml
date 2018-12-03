@@ -14,10 +14,11 @@
 else
 {
 
-<table class="table table-bordered table-hover">
+<table id="stories" class="table table-bordered table-hover">
     <thead>
         <tr>
             <th>Storie List</th>
+            <th>Delete</th>
         </tr>
     </thead>
     <tbody>
@@ -25,9 +26,43 @@ else
         {
             <tr>
                 <td>@Html.ActionLink(storie.Title, "Edit", new { id = storie.Id }, null)</td>
+                <td>
+                    <button data-store-id="stories" class="btn-link js-delete">Delete</button>
+                </td>
             </tr>
         }
     </tbody>
 </table> 
 
 }
+
+@section scripts{
+
+    <script>
+
+        $(document).ready(function () {
+            var table = $("#stories").DataTable({
+
+            });
+
+            $("#stories .js-delete").on("click", function () {
+                var button = $(this);
+
+                bootbox.confirm("Are you sure you want to delete", function (result) {
+                    if (result) {
+                        $.ajax({
+                            url: "api/stories/" + button.attr("data-store-id"),
+                            method: "DELETE",
+                            success: function () {
+                                table.row(button.parents("tr")).remove().draw();
+                            }
+                        });
+                    }
+                    
+                });
+            });
+        });
+
+    </script>
+    
+    }

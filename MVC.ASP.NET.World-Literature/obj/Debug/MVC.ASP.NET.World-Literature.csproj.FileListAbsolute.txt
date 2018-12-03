@@ -14,6 +14,7 @@ C:\Users\Omar Farid\source\repos\MVC.ASP.NET.World-Literature\MVC.ASP.NET.World-
 C:\Users\Omar Farid\source\repos\MVC.ASP.NET.World-Literature\MVC.ASP.NET.World-Literature\bin\MVC.ASP.NET.World-Literature.dll
 C:\Users\Omar Farid\source\repos\MVC.ASP.NET.World-Literature\MVC.ASP.NET.World-Literature\bin\MVC.ASP.NET.World-Literature.pdb
 C:\Users\Omar Farid\source\repos\MVC.ASP.NET.World-Literature\MVC.ASP.NET.World-Literature\bin\Antlr3.Runtime.dll
+C:\Users\Omar Farid\source\repos\MVC.ASP.NET.World-Literature\MVC.ASP.NET.World-Literature\bin\AutoMapper.dll
 C:\Users\Omar Farid\source\repos\MVC.ASP.NET.World-Literature\MVC.ASP.NET.World-Literature\bin\EntityFramework.dll
 C:\Users\Omar Farid\source\repos\MVC.ASP.NET.World-Literature\MVC.ASP.NET.World-Literature\bin\EntityFramework.SqlServer.dll
 C:\Users\Omar Farid\source\repos\MVC.ASP.NET.World-Literature\MVC.ASP.NET.World-Literature\bin\Microsoft.AspNet.Identity.Core.dll
@@ -32,7 +33,10 @@ C:\Users\Omar Farid\source\repos\MVC.ASP.NET.World-Literature\MVC.ASP.NET.World-
 C:\Users\Omar Farid\source\repos\MVC.ASP.NET.World-Literature\MVC.ASP.NET.World-Literature\bin\Microsoft.Web.Infrastructure.dll
 C:\Users\Omar Farid\source\repos\MVC.ASP.NET.World-Literature\MVC.ASP.NET.World-Literature\bin\Newtonsoft.Json.dll
 C:\Users\Omar Farid\source\repos\MVC.ASP.NET.World-Literature\MVC.ASP.NET.World-Literature\bin\Owin.dll
+C:\Users\Omar Farid\source\repos\MVC.ASP.NET.World-Literature\MVC.ASP.NET.World-Literature\bin\System.Net.Http.Formatting.dll
 C:\Users\Omar Farid\source\repos\MVC.ASP.NET.World-Literature\MVC.ASP.NET.World-Literature\bin\System.Web.Helpers.dll
+C:\Users\Omar Farid\source\repos\MVC.ASP.NET.World-Literature\MVC.ASP.NET.World-Literature\bin\System.Web.Http.dll
+C:\Users\Omar Farid\source\repos\MVC.ASP.NET.World-Literature\MVC.ASP.NET.World-Literature\bin\System.Web.Http.WebHost.dll
 C:\Users\Omar Farid\source\repos\MVC.ASP.NET.World-Literature\MVC.ASP.NET.World-Literature\bin\System.Web.Mvc.dll
 C:\Users\Omar Farid\source\repos\MVC.ASP.NET.World-Literature\MVC.ASP.NET.World-Literature\bin\System.Web.Optimization.dll
 C:\Users\Omar Farid\source\repos\MVC.ASP.NET.World-Literature\MVC.ASP.NET.World-Literature\bin\System.Web.Razor.dll
@@ -40,7 +44,11 @@ C:\Users\Omar Farid\source\repos\MVC.ASP.NET.World-Literature\MVC.ASP.NET.World-
 C:\Users\Omar Farid\source\repos\MVC.ASP.NET.World-Literature\MVC.ASP.NET.World-Literature\bin\System.Web.WebPages.dll
 C:\Users\Omar Farid\source\repos\MVC.ASP.NET.World-Literature\MVC.ASP.NET.World-Literature\bin\System.Web.WebPages.Razor.dll
 C:\Users\Omar Farid\source\repos\MVC.ASP.NET.World-Literature\MVC.ASP.NET.World-Literature\bin\WebGrease.dll
+C:\Users\Omar Farid\source\repos\MVC.ASP.NET.World-Literature\MVC.ASP.NET.World-Literature\bin\AutoMapper.xml
 C:\Users\Omar Farid\source\repos\MVC.ASP.NET.World-Literature\MVC.ASP.NET.World-Literature\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Omar Farid\source\repos\MVC.ASP.NET.World-Literature\MVC.ASP.NET.World-Literature\bin\System.Net.Http.Formatting.xml
+C:\Users\Omar Farid\source\repos\MVC.ASP.NET.World-Literature\MVC.ASP.NET.World-Literature\bin\System.Web.Http.xml
+C:\Users\Omar Farid\source\repos\MVC.ASP.NET.World-Literature\MVC.ASP.NET.World-Literature\bin\System.Web.Http.WebHost.xml
 C:\Users\Omar Farid\source\repos\MVC.ASP.NET.World-Literature\MVC.ASP.NET.World-Literature\bin\System.Web.Helpers.xml
 C:\Users\Omar Farid\source\repos\MVC.ASP.NET.World-Literature\MVC.ASP.NET.World-Literature\bin\System.Web.Mvc.xml
 C:\Users\Omar Farid\source\repos\MVC.ASP.NET.World-Literature\MVC.ASP.NET.World-Literature\bin\System.Web.Optimization.xml
@@ -64,9 +72,9 @@ C:\Users\Omar Farid\source\repos\MVC.ASP.NET.World-Literature\MVC.ASP.NET.World-
 C:\Users\Omar Farid\source\repos\MVC.ASP.NET.World-Literature\MVC.ASP.NET.World-Literature\bin\Microsoft.Owin.Security.Google.xml
 C:\Users\Omar Farid\source\repos\MVC.ASP.NET.World-Literature\MVC.ASP.NET.World-Literature\bin\Microsoft.Owin.Security.Twitter.xml
 C:\Users\Omar Farid\source\repos\MVC.ASP.NET.World-Literature\MVC.ASP.NET.World-Literature\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Omar Farid\source\repos\MVC.ASP.NET.World-Literature\MVC.ASP.NET.World-Literature\obj\Debug\MVC.ASP.NET.World_Literature.Migrations.InitialModel.resources
+C:\Users\Omar Farid\source\repos\MVC.ASP.NET.World-Literature\MVC.ASP.NET.World-Literature\obj\Debug\MVC.ASP.NET.World_Literature.Migrations.InitialModel1.resources
+C:\Users\Omar Farid\source\repos\MVC.ASP.NET.World-Literature\MVC.ASP.NET.World-Literature\obj\Debug\MVC.ASP.NET.World-Literature.csproj.GenerateResource.Cache
 C:\Users\Omar Farid\source\repos\MVC.ASP.NET.World-Literature\MVC.ASP.NET.World-Literature\obj\Debug\MVC.ASP.NET.World-Literature.dll
 C:\Users\Omar Farid\source\repos\MVC.ASP.NET.World-Literature\MVC.ASP.NET.World-Literature\obj\Debug\MVC.ASP.NET.World-Literature.pdb
-C:\Users\Omar Farid\source\repos\MVC.ASP.NET.World-Literature\MVC.ASP.NET.World-Literature\obj\Debug\MVC.ASP.NET.World_Literature.Migrations.InitialModel.resources
-C:\Users\Omar Farid\source\repos\MVC.ASP.NET.World-Literature\MVC.ASP.NET.World-Literature\obj\Debug\MVC.ASP.NET.World-Literature.csproj.GenerateResource.Cache
-C:\Users\Omar Farid\source\repos\MVC.ASP.NET.World-Literature\MVC.ASP.NET.World-Literature\obj\Debug\MVC.ASP.NET.World_Literature.Migrations.InitialModel1.resources
 C:\Users\Omar Farid\source\repos\MVC.ASP.NET.World-Literature\MVC.ASP.NET.World-Literature\obj\Debug\MVC.ASP.NET.World-Literature.csprojResolveAssemblyReference.cache
